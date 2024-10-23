@@ -31,9 +31,12 @@ internal class Program
 
         MusteriManager musteriManager = new MusteriManager();
         musteriManager.Ekle(musteri1);
-        musteriManager.Ekle(musteri2);
+        musteriManager.Sil(musteri2);
+
+        Console.WriteLine("----------------------------------------");
+
         musteriManager.Ekle(musteri3);
-        musteriManager.Ekle(musteri4);
+        musteriManager.Listele(musteri4);
 
 
 
